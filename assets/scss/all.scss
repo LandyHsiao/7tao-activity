@@ -3,14 +3,14 @@
 // @import "utils/functions";
 
 // 2. Include any default variable overrides here
-// @import "utils/variables"; // variables & BS5 variables overrides
+@import "utils/variables"; // variables & BS5 variables overrides
 
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/variables-dark";
 
 // 4. Include any default map overrides here
-// @import "utils/map"; // map override & merge
+@import "utils/map"; // map override & merge
 
 // 5. Include remainder of required parts
 @import "../../node_modules/bootstrap/scss/maps";
@@ -25,18 +25,18 @@
 
 
 // 8. Add additional custom code here
-// @import "base/base";  // common setting for whole site
-// @import "base/font";  // common web font import
+@import "base/base";  // common setting for whole site
+@import "base/font";  // common web font import
 @import "/node_modules/bootstrap-icons/font/bootstrap-icons.css"; // bootstrap icon fonts
 
 // @import "utils/mixin";
 // @import "utils/utils";
 
 // import components stylesheets from here
-// @import "components/buttons";
+@import "components/card";
 
 // import layout stylesheet from here
-// @import "layout/header";
+@import "layout/header";
 // @import "layout/footer";
 
 // import pages stylesheet from here
