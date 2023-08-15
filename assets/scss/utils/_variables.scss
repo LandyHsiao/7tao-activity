@@ -1,0 +1,57 @@
+/* Color */
+$primary: #030303;
+$secondary: #FBFF22;
+$warning: #C96464;
+$success: #FBFF22;
+$danger: #C96464;
+
+$body-bg: #F3F1E5;
+$body-color: #030303;
+
+$border-color: #030303;
+
+/* Setting */
+$enable-rounded: false;
+$enable-rfs: false;
+
+/* Font Family */
+$font-family-sans-serif: "Noto Sans TC", sans-serif;
+$headings-font-family: 'Yeseva One', "Noto Serif TC", sans-serif; // for none CJK
+$display-font-family: "Noto Serif TC", sans; // for TC
+$font-family-base: "Noto Sans TC";
+
+/* Line Height */ 
+$headings-line-height:        1.155;
+$display-line-height: 1.436875;
+
+/* Font Size */
+$font-size-base: 1rem;
+$h1-font-size:                $font-size-base * 4;
+$h2-font-size:                $font-size-base * 3.5;
+$h3-font-size:                $font-size-base * 3;
+$h4-font-size:                $font-size-base * 2;
+$h5-font-size:                $font-size-base * 1.5;
+$h6-font-size:                $font-size-base * 1.125;
+
+/* Font Weight */
+$display-font-weight: 700;
+$headings-font-weight: 7 00;
+
+/* Border Width */
+$input-btn-border-width: 0;
+$btn-border-width: 0;
+$nav-tabs-border-width: 0;
+
+/* Button */
+$btn-color: $secondary;
+$btn-padding-y: 0.5rem;
+$btn-padding-y-sm: 0.5rem;
+$btn-padding-y-lg: 0.5rem;
+$btn-padding-x: 8.5rem;
+$btn-padding-x-sm: 2rem;
+
+/* Card */
+$card-cap-bg:  $body-bg;
+$card-cap-padding-y: 0.5rem;
+$card-cap-padding-x: 0;
+$card-border-width: 0;
