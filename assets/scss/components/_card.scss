@@ -1,0 +1,29 @@
+.event-card__event-type {
+  &:before {
+    content: '';
+    background-image: url("../image/sparkler.png");
+    background-size: contain;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: text-top;
+
+  }
+}
+
+.event-card__ticket-btn-icon {
+  &:before {
+    line-height: 1.5;
+  }
+}
+
+.card {
+  .img-fluid {
+    aspect-ratio: 1.67;
+    @include media-breakpoint-up(sm) {
+      aspect-ratio: 1.63;
+    }
+  }
+}
