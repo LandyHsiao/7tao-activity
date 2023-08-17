@@ -1,0 +1,18 @@
+.link-primary {
+  color: $body-color;
+  &:hover {
+    color: $secondary-dark !important;
+  }
+}
+
+@each $size, $value in $custom-font-sizes {
+  .h#{$size} {
+    margin-top: 0;
+    margin-bottom: $spacer * .5;
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+    line-height: $headings-line-height;
+    color: $headings-color;
+    font-size: $value;
+  }
+}
