@@ -21,3 +21,39 @@
     width: auto;
   }
 }
+
+.home-album__list li {
+  &:nth-child(2n) {
+    transform: rotate(2deg);
+  }
+  &:nth-child(3) {
+    transform: rotate(-2deg);
+  }
+}
+
+.home-album__item {
+  &:hover {
+    transition: transform .2s;
+    .home-album__item-img {
+      transform: scale(.9);
+    }
+    .home-album__item-tag {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+  }
+}
+
+.home-album__item-img-wrap {
+  height: 267px;
+  max-height: 274px;
+}
+
+.home-album__item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-album__item-tag {
+  transform: translate(-50%, -50%) rotate(-4deg);
+}
