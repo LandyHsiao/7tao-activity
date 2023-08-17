@@ -1,0 +1,23 @@
+.home-banner {
+  background-image: url("../image/event/13.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  @include media-breakpoint-up(md) {
+    height: 518px;
+  }
+}
+
+.home-banner__top {
+  max-width: 50%;
+}
+
+.home-marquee {
+  .swiper-wrapper {
+    transition-timing-function: linear;
+  }
+  .swiper-slide {
+    letter-spacing: 3.2px;
+    width: auto;
+  }
+}

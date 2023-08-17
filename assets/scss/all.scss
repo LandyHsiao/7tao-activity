@@ -30,7 +30,7 @@
 @import "/node_modules/bootstrap-icons/font/bootstrap-icons.css"; // bootstrap icon fonts
 
 // @import "utils/mixin";
-@import "utils/color-links";
+@import "utils/utils";
 
 // import components stylesheets from here
 @import "components/card";
@@ -40,4 +40,4 @@
 // @import "layout/footer";
 
 // import pages stylesheet from here
-// @import "pages/index";
+@import "pages/index";
