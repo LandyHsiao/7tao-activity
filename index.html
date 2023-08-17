@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>元件測試</title>
+  <title>7TAO 活動訂票網</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
   <script type="module" crossorigin src="/7tao-activity/assets/main-0f53dd7b.js"></script>
   <link rel="stylesheet" href="/7tao-activity/assets/main-ac54bc2f.css">
 </head>
@@ -33,67 +34,32 @@
     </div>
     
   </div>
-</div>          <div class="footer-area">
-  <p class="footer-area__copyright text-center mb-0 fs-8 fs-md-8 py-6 py-sm-8 lh-sm border-top border-3">© 7TAO七逃. All Rights Reserved</p>
-</div>  <div class="container-sm py-3">
-    <div class="button-display mb-2">
-      <button href="" class="btn btn-primary">查看活動詳情</button>
-      <button href="" class="btn btn-primary" disabled>查看活動詳情</button>
-      <button href="" class="btn btn-secondary">查看活動詳情</button>
-      <button href="" class="btn btn-secondary" disabled>查看活動詳情</button>
-      <button href="" class="btn btn-"></button>
-      <button href="" class="btn btn-"></button>
-    </div>
-    <div class="icon-font mb-2">
-      <i class="icofont-ui-file icofont-3x"></i>
-      <i class="icofont-ui-user icofont-3x"></i>
-      <i class="icofont-3x icofont-search-1"></i>
-      <i class="icofont-3x icofont-ui-email"></i>
-      <i class="icofont-3x icofont-facebook"></i>
-      <i class="icofont-3x icofont-phone"></i>
-      <i class="icofont-3x icofont-arrow-lef"></i>
-      <i class="icofont-3x icofont-arrow-right"></i>
-      <i class="icofont-3x icofont-check-circle"></i>
-      <i class="icofont-3x icofont-verification-check"></i>
-      <i class="icofont-3x icofont-rounded-double-right"></i>
-    </div>
-    <div class="row mb-2">
-      <div class="col-6">
-        <p class="fs-1">fs-1 64px</p>
-        <p class="fs-2">fs-2 60px</p>
-        <p class="fs-3">fs-3 48px</p>
-        <p class="fs-4">fs-4 32px</p>
-        <p class="fs-5">fs-5 24px</p>
-        <p class="fs-6">fs-6 18px</p>
-        <p class="fs-7">fs-7 16px</p>
-      </div>
-      <div class="col-6">
-        <p class="fs-1 fs-md-2 fs-lg-3">fs-1</p>
-        <p class="fs-2 fs-md-3 fs-lg-4">fs-2</p>
-        <p class="fs-3 fs-md-4 fs-lg-5">fs-3</p>
-        <p class="fs-4 fs-md-5 fs-lg-6">fs-4</p>
-        <p class="fs-5 fs-md-6 fs-lg-7">fs-5</p>
-        <p class="fs-6 fs-md-7 fs-lg-1">fs-6</p>
-        <p class="fs-7 fs-md-1 fs-lg-2">fs-7</p>
-      </div>
-      <div class="col-12">
-        <p class="h1 text-wrap">h1 heading標題</p>
-        <p class="h2 text-wrap">h2 heading標題</p>
-        <p class="h3 text-wrap">h3 heading標題</p>
-        <p class="h4 text-wrap">h4 heading標題</p>
-        <p class="h5 text-wrap">h5 heading標題</p>
-        <p class="h6 text-wrap">h6 heading標題</p>
-      </div>
-      <div class="col-12">
-        <p class="display-1 text-wrap">display-1 標題</p>
-        <p class="display-2 text-wrap">display-2 標題</p>
-        <p class="display-3 text-wrap">display-3 標題</p>
-        <p class="display-4 text-wrap">display-4 標題</p>
-        <p class="display-5 text-wrap">display-5 標題</p>
-        <p class="display-6 text-wrap">display-6 標題</p>
+</div>          <section class="home-banner container-sm px-8 px-md-12 pt-4 pt-md-12 pb-6 mb-8 mb-md-12 text-white">
+    <div class="home-banner__content d-flex flex-column justify-content-between h-100">
+      <p class="home-banner__top h4 fs-md-2 text-wrap mb-0">19 MAY 2023</p>
+      <div class="home-banner__bottom text-center">
+        <p class="display-6 mb-0 mb-lg-4 fs-md-5 mt-auto">隔牆有耳-沒有草東的派對</p>
+        <p class="d-none d-lg-block mb-0">你各位聽團仔們！每次想跟朋友一起聽草東專場卻每一次都搶不到票？「草東沒有派對」永遠都是「草東沒有門票」！ 
+          <br>帶上啤酒、野餐墊，讓我們在Live House外面一起開場「沒有草東的派對」吧！</p>
       </div>
     </div>
-    <div class="event-card-display row gy-6 gy-sm-7 gy-lg-12">
+  </section>
+  <section class="home-category container-sm">
+    <ul class="home-category__list row row-cols-3 row-cols-lg-6 list-unstyled">
+      <li class="home-category__list-item col">演出</li>
+      <li class="home-category__list-item col">聯誼</li>
+      <li class="home-category__list-item col">展覽</li>
+      <li class="home-category__list-item col">美食</li>
+      <li class="home-category__list-item col">戶外</li>
+      <li class="home-category__list-item col">探索<br>更多</li>
+    </ul>
+  </section>
+  <section class="home-recent-event container-sm mb-8 mb-md-15">
+    <div class="title-block align-middle d-flex justify-content-between align-items-center border border-3 py-4 px-3 py-md-6 px-md-8 mb-6 mb-md-8">
+      <h2 class="h6 fs-sm-4 fs-md-1 mb-0">RECENT</h2>
+      <h3 class="display-7 fs-md-4 mb-0">近期活動</h3>
+    </div>
+    <div class="home-recent-event__events row gy-6 gy-sm-8 gy-lg-12">
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card event-card h-100">
           <div class="card-header event-card__head px-0 pt-0 pb-2 pb-sm-3 border-bottom border-3">
@@ -209,7 +175,76 @@
         </div>
       </div>
     </div>
+  </section>
+  <section class="home-online-event container-sm">
+    <div class="title-block align-middle d-flex justify-content-between align-items-center border border-3 py-4 px-3 py-md-6 px-md-8 mb-6 mb-md-8">
+      <h2 class="h6 fs-sm-4 fs-md-1 mb-0">ONLINE</h2>
+      <h3 class="display-7 fs-md-4 mb-0">線上活動</h3>
+    </div>
+    <div class="row">
+      <div class="home-online-event__left col-12 col-lg-7">
+        <img src="/7tao-activity/assets/online-fe4a9a77.jpg" alt="切特居批踢活動縮圖" class="home-online-event__img">
+      </div>
+      <div class="home-online-event__right col-12 col-lg-5">
+        <h3 class="h6 fs-md-4 mb-2 mb-md-4 ">切特居批踢</h3>
+        <div class="home-online-event__badge-list d-flex mb-3 mb-md-8">
+          <span class="home-online-event__label badge">競賽</span>
+          <span class="home-online-event__label badge">科技</span>
+          <span class="home-online-event__label badge">有趣</span>
+        </div>
+        <p class="mb-3 mb-md-8">最近網路上很流行的AI程式 ChatGPT，可以用來聊天或是查詢、整理各種資料，不同的應用方式如雨後春筍般冒出來。
+          這個活動讓大家把自己最有特色的使用方法提出來讓大家參考，也會投票出最有趣的用法。
+          該讓其他人知道自己使用 ChatGPT 的姿勢才是最特別的那個了！
+        </p>
+        <a href="" class="btn btn-primary d-block">查看活動詳情</a>
+      </div>
+    </div>
+  </section>
+  <div class="swiper home-marquee home-marquee--regular mb-12">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide py-4 py-md-6 h7 fs-md-4 text-secondary bg-primary">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+      <div class="swiper-slide py-4 py-md-6 h7 fs-md-4 text-secondary bg-primary">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+      <div class="swiper-slide py-4 py-md-6 h7 fs-md-4 text-secondary bg-primary">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+      <div class="swiper-slide py-4 py-md-6 h7 fs-md-4 text-secondary bg-primary">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+      <div class="swiper-slide py-4 py-md-6 h7 fs-md-4 text-secondary bg-primary">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+    </div>
   </div>
+  <div class="swiper home-marquee home-marquee--reverse mb-8">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide py-4 py-md-6 h7 fs-md-4 text-secondary bg-primary">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+      <div class="swiper-slide py-4 py-md-6 h7 fs-md-4 text-secondary bg-primary">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+      <div class="swiper-slide py-4 py-md-6 h7 fs-md-4 text-secondary bg-primary">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+      <div class="swiper-slide py-4 py-md-6 h7 fs-md-4 text-secondary bg-primary">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+      <div class="swiper-slide py-4 py-md-6 h7 fs-md-4 text-secondary bg-primary">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+    </div>
+  </div>
+  <div class="footer-area">
+  <p class="footer-area__copyright text-center mb-0 fs-8 fs-md-8 py-6 py-sm-8 lh-sm border-top border-3">© 7TAO七逃. All Rights Reserved</p>
+</div>  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    const swiper_regular = new Swiper(".home-marquee--regular", {
+      slidesPerView: "auto",
+      allowTouchMove: false,
+      autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+      },
+      loop: true,
+      speed: 8000,
+    });
+    const swiper_reverse = new Swiper(".home-marquee--reverse", {
+      slidesPerView: "auto",
+      allowTouchMove: false,
+      autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+        reverseDirection: true
+      },
+      loop: true,
+      speed: 8000,
+    });
+  </script>
   
 </body>
 </html>
