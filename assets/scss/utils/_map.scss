@@ -10,8 +10,10 @@ $display-font-sizes: (
 );
 
 $custom-font-sizes: (
-  7: $font-size-base
+  7: $font-size-base,
   // 16
+  8: $font-size-base * 0.875
+  // 14
 );
 $font-sizes: map-merge($font-sizes, $custom-font-sizes);
 
