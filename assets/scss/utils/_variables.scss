@@ -5,6 +5,8 @@ $warning: #C96464;
 $success: #FBFF22;
 $danger: #C96464;
 
+$secondary-dark: #9C9E18;
+
 $body-bg: #F3F1E5;
 $body-color: #030303;
 
@@ -21,8 +23,11 @@ $display-font-family: "Noto Serif TC", sans; // for TC
 $font-family-base: "Noto Sans TC";
 
 /* Line Height */ 
-$headings-line-height:        1.155;
+$headings-line-height: 1.155;
 $display-line-height: 1.436875;
+$line-height-sm: 1.4367; // for chinese lh
+$line-height-lg: 1.155; // for none CJK lh
+$input-btn-line-height: $line-height-sm;
 
 /* Font Size */
 $font-size-base: 1rem;
@@ -55,3 +60,10 @@ $card-cap-bg:  $body-bg;
 $card-cap-padding-y: 0.5rem;
 $card-cap-padding-x: 0;
 $card-border-width: 0;
+
+/* Form */
+$input-border-width: 2px;
+$input-placeholder-color: #878787;
+$input-padding-y: 0.5rem;
+$input-padding-x: 1rem;
+$input-font-size: 1rem;
