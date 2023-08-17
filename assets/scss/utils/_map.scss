@@ -6,7 +6,8 @@ $display-font-sizes: (
   4: $h4-font-size,
   5: $h5-font-size,
   6: $h6-font-size,
-  7: $font-size-base
+  7: $font-size-base,
+  8: $font-size-base * 0.875
 );
 
 $custom-font-sizes: (
