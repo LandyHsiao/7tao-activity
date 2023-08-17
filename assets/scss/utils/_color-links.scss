@@ -1,0 +1,6 @@
+.link-primary {
+  color: $body-color;
+  &:hover {
+    color: $secondary-dark !important;
+  }
+}
