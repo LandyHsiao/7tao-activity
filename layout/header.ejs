@@ -17,7 +17,7 @@
     </div>
     <div class="header-area__right-wrap">
       <ul class="header-area__menu-list list-unstyled d-flex align-items-center mb-0 d-none d-md-flex">
-        <li class="header-area__menu-item"></i><a href="" class="header-area__menu-item-link h6 link-primary me-6 mb-0 fw-normal"><i class="icofont-ui-file"></i>REGISTER</a></li>
+        <li class="header-area__menu-item"></i><a class="header-area__menu-item-link h6 link-primary me-6 mb-0 fw-normal" role="button" data-bs-toggle="modal" data-bs-target="#join-member-modal"><i class="icofont-ui-file"></i>REGISTER</a></li>
         <li class="header-area__menu-item"><a href="" class="header-area__menu-item-link h6 link-primary mb-0 fw-normal"><i class="icofont-ui-user"></i>LOGIN</a></li>
       </ul>
       <div class="header-area__hamburger d-md-none fs-6 align-text-top py-1 px-3 rounded border" data-bs-toggle="collapse" data-bs-target="#collapse-header-menu" role="button" aria-expanded="false" aria-controls="collapse-header-menu">
@@ -30,8 +30,27 @@
 <div class="collapse border-bottom border-2" tabindex="-1" id="collapse-header-menu" aria-labelledby="collapse-header-menu">
   <div class="container-sm py-6">
     <ul class="list-unstyled mb-0">
-      <li class="mb-4"></i><a href="" class="h6 link-primary mb-0 fw-normal d-block"><i class="icofont-ui-file me-1"></i>REGISTER</a></li>
+      <li class="mb-4"></i><a class="h6 link-primary mb-0 fw-normal d-block" role="button" data-bs-toggle="modal" data-bs-target="#join-member-modal"><i class="icofont-ui-file me-1"></i>REGISTER</a></li>
       <li class=""><a href="" class="h6 link-primary mb-0 fw-normal d-block"><i class="icofont-ui-user me-1"></i>LOGIN</a></li>
     </ul>
+  </div>
+</div>
+
+<div class="join-member-modal modal" id="join-member-modal" aria-labelledby="join-member-modal Label" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header d-block position-relative py-4 px-6 px-md-3 border-bottom border-3">
+        <h5 class="modal-title h5 mb-0 text-center d-block">立刻成為7TAO會員 </h5>
+        <button type="button" class="join-member-modal-close btn-close position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center py-8 py-md-12">
+        <p class="mb-6">立刻成為七逃會員，加速活動報名流程並取得活動優惠資訊。<br>
+          您也可以先報名活動，日後再註冊帳號，<br>
+          系統會在認證您的Email後，協助您找回舊的訂單。
+        </p>
+        <button type="button" class="btn btn-primary px-8">立即成為會員</button>
+      </div>
+      </div>
+    </div>
   </div>
 </div>
