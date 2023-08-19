@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="/7tao-activity/assets/main-9e84d3bb.css">
 </head>
 <body>
-  <div class="header-area border-bottom border-3 py-3 py-lg-6">
+  <div class="header-area border-bottom border-3 py-3 py-lg-6 position-sticky">
   <div class="container d-flex justify-content-md-between justify-content-start align-items-center">
     <div class="header-area__left-wrap d-flex align-items-center flex-grow-1">
       <a class="header-area__logo-wrap d-flex align-items-center me-sm-4 me-lg-12" href="./index.html">
@@ -25,16 +25,28 @@
     </div>
     <div class="header-area__right-wrap">
       <ul class="header-area__menu-list list-unstyled d-flex align-items-center mb-0 d-none d-md-flex">
-        <li class="header-area__menu-item"></i><a href="" class="header-area__menu-item-link link-primary me-6"><i class="icofont-ui-file"></i>REGISTER</a></li>
-        <li class="header-area__menu-item"><a href="" class="header-area__menu-item-link link-primary"><i class="icofont-ui-user"></i>LOGIN</a></li>
+        <li class="header-area__menu-item"></i><a href="" class="header-area__menu-item-link h6 link-primary me-6 mb-0"><i class="icofont-ui-file"></i>REGISTER</a></li>
+        <li class="header-area__menu-item"><a href="" class="header-area__menu-item-link h6 link-primary mb-0"><i class="icofont-ui-user"></i>LOGIN</a></li>
       </ul>
-      <div class="header-area__hamburger d-md-none fs-6 align-text-top py-1 px-3 rounded border">
+      <div class="header-area__hamburger d-md-none fs-6 align-text-top py-1 px-3 rounded border" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-header-menu" role="button" aria-expanded="false" aria-controls="offcanvas-header-menu">
         <i class="bi bi-list py-0"></i>
       </div>
     </div>
-    
   </div>
-</div>          <section class="home-banner container-sm mb-8 mb-md-12 text-white mt-4 mt-md-8">
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-header-menu" aria-labelledby="offcanvas-header-menu">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">7TAO活動訂票網</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="list-unstyled">
+      <li class="py-2 border-bottom border-2"></i><a href="" class="h6 link-primary mb-0"><i class="icofont-ui-file"></i>REGISTER</a></li>
+      <li class="py-2 border-bottom border-2"><a href="" class="h6 link-primary mb-0"><i class="icofont-ui-user"></i>LOGIN</a></li>
+    </ul>
+  </div>
+</div>  <section class="home-banner container-sm mb-8 mb-md-12 text-white mt-4 mt-md-8">
     <div class="swiper home-banner-carousell h-100">
       <div class="swiper-wrapper">
         <div class="swiper-slide home-banner-carousell-1">
