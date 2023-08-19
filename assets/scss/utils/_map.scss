@@ -117,4 +117,10 @@ $utilities: (
     class: mw,
     values: (100: 100%)
   ),
+  "border-width": (
+    responsive: true,
+    property: border-width,
+    class: border,
+    values: $border-widths
+  ),
 );
