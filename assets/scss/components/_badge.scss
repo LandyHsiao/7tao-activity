@@ -1,0 +1,14 @@
+.badge {
+  border: 1px solid $primary;
+  border-left-width: 3px;
+  margin-right: 8px;
+  font-family: $display-font-family;
+  &:last-child {
+    margin-right: 0;
+  }
+  @include media-breakpoint-up(md) {
+    font-size: map-get($map: $font-sizes, $key: 7);
+    padding-left: 1.5 * $spacer;
+    padding-right: 1.5 * $spacer;
+  }
+}
