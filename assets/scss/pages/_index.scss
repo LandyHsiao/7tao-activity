@@ -1,15 +1,72 @@
 .home-banner {
-  background-image: url("../image/event/13.jpg");
-  background-position: center;
-  background-size: cover;
   height: 350px;
+  background-clip: padding-box;
   @include media-breakpoint-up(md) {
     height: 518px;
   }
 }
 
+.home-banner-carousell {
+  .swiper-button-prev, .swiper-button-next {
+    color: rgba(#fff, .3);
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.home-banner-carousell- {
+  &1 {
+    background-image: url("../assets/image/event/13.jpg");
+  }
+  &2 {
+    background-image: url("../assets/image/event/09.jpg");
+  }
+  &3 {
+    background-image: url("../assets/image/event/08.jpg");
+  }
+}
+
 .home-banner__top {
   max-width: 50%;
+}
+
+.home-category__list-item {
+  aspect-ratio: 1;
+  &:hover {
+    background-color: $secondary;
+  }
+}
+
+.home-category__icon {
+  width: 40px;
+  height: auto;
+  @include media-breakpoint-up(sm) {
+    width: 60px;
+  }
+  @include media-breakpoint-up(md) {
+    width: 40px;
+  }
+  @include media-breakpoint-up(lg) {
+    width: 60px;
+  }
+  @include media-breakpoint-up(xl) {
+    width: 80px;
+  }
+}
+
+.home-online-event__img {
+  min-height: 317px;
+  max-height: 351px;
+  background-image: url("../image/event/online.jpg");
+  background-position-x: center;
+  background-position-y: 25%;
+  background-size: cover;
+  @include media-breakpoint-up(lg) {
+    min-height: initial;
+    max-height: initial;
+  }
 }
 
 .home-marquee {
@@ -22,12 +79,42 @@
   }
 }
 
+.event-card__event-type:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.event-card__ticket-btn:hover {
+  &:before {
+    content: '';
+    border-radius: 100%;
+    border-color: $secondary;
+    border-width: 1rem;
+    border-style: solid;
+    position: absolute;
+    z-index: 0;
+    top: -3.5px;
+    left: -10px;
+  }
+}
+
 .home-album__list li {
+  &:first-child {
+    &:hover {
+      transform: rotate(-1deg);
+    }
+  }
   &:nth-child(2n) {
     transform: rotate(2deg);
+    &:hover {
+      transform: rotate(3deg);
+    }
   }
   &:nth-child(3) {
     transform: rotate(-2deg);
+    &:hover {
+      transform: rotate(-3deg);
+    }
   }
 }
 
@@ -56,4 +143,12 @@
 
 .home-album__item-tag {
   transform: translate(-50%, -50%) rotate(-4deg);
+}
+
+.home-info__follow {
+  .home-info__title, .home-info__content {
+    @include media-breakpoint-up(lg) {
+      border-right-width: 0 !important;
+    }
+  }
 }
