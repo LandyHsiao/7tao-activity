@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>7TAO 活動訂票網</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <%- include('./layout/header.ejs'); -%>
@@ -368,6 +369,7 @@
   <%- include('./layout/footer.ejs'); -%>
   <script type="module" src="../main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     const home_swiper_regular = new Swiper(".home-marquee--regular", {
       slidesPerView: "auto",
@@ -398,6 +400,8 @@
       },
     });
   </script>
-  
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

@@ -98,19 +98,19 @@
   }
 }
 
-.home-album__list li {
-  &:first-child {
+.home-album__list .col {
+  &:first-child .home-album__item {
     &:hover {
       transform: rotate(-1deg);
     }
   }
-  &:nth-child(2n) {
+  &:nth-child(2n) .home-album__item {
     transform: rotate(2deg);
     &:hover {
       transform: rotate(3deg);
     }
   }
-  &:nth-child(3) {
+  &:nth-child(3) .home-album__item {
     transform: rotate(-2deg);
     &:hover {
       transform: rotate(-3deg);
