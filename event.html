@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>7TAO 活動訂票網</title>
-  <script type="module" crossorigin src="/7tao-activity/assets/main-8db3f348.js"></script>
-  <link rel="stylesheet" href="/7tao-activity/assets/main-038a7ee0.css">
+  <script type="module" crossorigin src="/7tao-activity/assets/main-2653fc95.js"></script>
+  <link rel="stylesheet" href="/7tao-activity/assets/main-4aa0c1a6.css">
 </head>
 <body>
-  <div class="header-area border-bottom border-2 border-md-3 py-3 py-lg-6 position-sticky">
+  <div class="header-area border-bottom border-2 border-md-3 py-3 py-lg-6 position-relative">
   <div class="container d-flex justify-content-md-between justify-content-start align-items-center">
     <div class="header-area__left-wrap d-flex align-items-center flex-grow-1 flex-shrink-1">
       <a class="header-area__logo-wrap d-flex align-items-center me-sm-4 me-lg-12" href="./index.html">
@@ -35,16 +35,17 @@
       </div>
     </div>
   </div>
-</div>
-
-<div class="collapse border-bottom border-2" tabindex="-1" id="collapse-header-menu" aria-labelledby="collapse-header-menu">
-  <div class="container-sm py-6">
-    <ul class="list-unstyled mb-0">
-      <li class="mb-4"></i><a class="h6 link-primary mb-0 fw-normal d-block" role="button" data-bs-toggle="modal" data-bs-target="#join-member-modal"><i class="icofont-ui-file me-1"></i>REGISTER</a></li>
-      <li class=""><a href="" class="h6 link-primary mb-0 fw-normal d-block"><i class="icofont-ui-user me-1"></i>LOGIN</a></li>
-    </ul>
+  <div class="collapse border-bottom border-top border-2 position-absolute w-100 z-3 header-area__collapse-menu mt-3" tabindex="-1" id="collapse-header-menu" aria-labelledby="collapse-header-menu">
+    <div class="container-sm py-6">
+      <ul class="list-unstyled mb-0">
+        <li class="mb-4"></i><a class="h6 link-primary mb-0 fw-normal d-block" role="button" data-bs-toggle="modal" data-bs-target="#join-member-modal"><i class="icofont-ui-file me-1"></i>REGISTER</a></li>
+        <li class=""><a href="" class="h6 link-primary mb-0 fw-normal d-block"><i class="icofont-ui-user me-1"></i>LOGIN</a></li>
+      </ul>
+    </div>
   </div>
 </div>
+
+
 
 <div class="join-member-modal modal" id="join-member-modal" aria-labelledby="join-member-modal Label" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
